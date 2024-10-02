@@ -1,15 +1,21 @@
 
 import './App.css'
-import ClassBasedComponent from './components/class-based-component'
-import FunctionalBased from './components/Functional-based-component'
+import ProductList from './components/products'
+// import ClassBasedComponent from './components/class-based-component'
+// import FunctionalBased from './components/Functional-based-component'
+
+const dummyProductData = ["Product 1", "Product 2", "product 3"];
 
 function App() {
 
 
   return (
     <div>
-      <ClassBasedComponent />
-      <FunctionalBased />
+      <h1>React JS concepts 2024</h1>
+      {/* <ClassBasedComponent />
+      <FunctionalBased /> */}
+
+      <ProductList name="Abhinav" city="ABC" dummyProductData={dummyProductData} />
     </div>
   )
 }
