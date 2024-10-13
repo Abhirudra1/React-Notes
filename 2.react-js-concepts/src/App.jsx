@@ -1,10 +1,11 @@
 
 import './App.css'
-import ProductList from './components/products'
+// import ProductList from './components/products'
+import Users from './components/users';
 // import ClassBasedComponent from './components/class-based-component'
 // import FunctionalBased from './components/Functional-based-component'
 
-const dummyProductData = ["Product 1", "Product 2", "product 3"];
+// const dummyProductData = ["Product 1", "Product 2", "product 3"];
 
 function App() {
 
@@ -15,7 +16,9 @@ function App() {
       {/* <ClassBasedComponent />
       <FunctionalBased /> */}
 
-      <ProductList name="Abhinav" city="ABC" dummyProductData={dummyProductData} />
+      {/* <ProductList name="Abhinav" city="ABC" dummyProductData={dummyProductData} /> */}
+
+      <Users />
     </div>
   )
 }
